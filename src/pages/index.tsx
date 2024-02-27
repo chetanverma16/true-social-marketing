@@ -1,4 +1,4 @@
-import Layout from "@/components/layout/Layout";
+import Layout from "@/components/main/layout/Layout";
 import HomePage from "@/sections/homePage";
 import { gql } from "@apollo/client";
 import * as React from "react";

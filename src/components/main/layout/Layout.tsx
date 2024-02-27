@@ -1,5 +1,5 @@
-import Footer from "./Footer";
-import Header from "./Header";
+import Footer from "./footer";
+import Navbar from "./navbar";
 
 type LayoutProps = {
   children: React.ReactNode;
@@ -8,8 +8,10 @@ type LayoutProps = {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <div className="flex flex-col min-h-screen">
-      <Header />
-      <main className="flex-grow flex flex-col">{children}</main>
+      <Navbar />
+      <main className="flex-grow flex flex-col container w-full">
+        {children}
+      </main>
       <Footer />
     </div>
   );
