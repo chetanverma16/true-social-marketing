@@ -14,9 +14,9 @@ const Navbar = () => {
   const nav = useMemo(
     () => [
       { title: "About", href: "/about" },
-      { title: "Company", href: "/integrations" },
+      { title: "Company", href: "/company" },
       { title: "Pricing", href: "/pricing" },
-      { title: "Contact", href: "/customers" },
+      { title: "Contact", href: "/contact" },
     ],
     []
   );
