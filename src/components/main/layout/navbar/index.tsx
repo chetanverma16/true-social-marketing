@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="z-50 absolute bg-transparent w-full">
+      <header className="z-50 bg-transparent w-full">
         <div className="max-w-6xl mx-auto flex items-center justify-between py-4 px-4">
           <Link href="/" className="flex-1 text-white">
             TSM-interview

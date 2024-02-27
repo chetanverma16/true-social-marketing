@@ -1,14 +1,17 @@
 import Layout from "@/components/main/layout/Layout";
-import HomePage from "@/sections/homePage";
 import { gql } from "@apollo/client";
 import * as React from "react";
 
 import { client } from "../lib/apollo";
+import Hero from "@/sections/homePage/Hero";
+import Grid from "@/sections/homePage/Grid";
 
 export default function Home({ films }: any) {
+  console.log(films);
   return (
     <Layout>
-      <HomePage />
+      <Hero />
+      <Grid films={films} />
     </Layout>
   );
 }
